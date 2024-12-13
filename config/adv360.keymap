@@ -34,18 +34,21 @@
         compatible = "zmk,combos";
 
         Copy_1 {
-            bindings = <&kp LG(C)>;
+            bindings = <&kp RG(C)>;
             key-positions = <35 1>;
+            layers = <1>;
         };
 
         Paste_2 {
             bindings = <&kp LG(V)>;
             key-positions = <35 2>;
+            layers = <1>;
         };
 
         Cut_3 {
-            bindings = <&kp LG(X)>;
+            bindings = <&kp RG(X)>;
             key-positions = <35 3>;
+            layers = <1>;
         };
     };
 
